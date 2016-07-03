@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.loppisvallingby.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/lopispic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:text="BACKLUCKELOPIS I VÄLLINGBY"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:text="About:"
+            android:textSize="20sp"
+            android:textColor="#D50000"
+            android:textStyle="bold|italic"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:text="Loppis is very special and unique market to buy and sell 'Second hand' items organized by Stockholmsmarknader. Now is the time for people living in Vällingby-Hässelby-Råcsta as loppis is coming to Vällingby Centrum."
+            android:textSize="15sp"
+            android:textColor="#4A148C"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Timing: "
+            android:textSize="20sp"
+            android:textColor="#D50000"
+            android:textStyle="bold|italic"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:text="Sunday 18 september 2016 kl. 11-15 "
+            android:textSize="14sp"
+            android:textColor="#4A148C"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Contact: "
+            android:textSize="20sp"
+            android:textColor="#D50000"
+            android:textStyle="bold|italic"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:text="076-8966370 \ninfo@stockholmsmarknader.se  \nhttp://www.loppistajm.se/vallingby/"
+            android:textSize="14sp"
+            android:textColor="#4A148C"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Always free admission and free parking"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
